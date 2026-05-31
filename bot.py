@@ -323,5 +323,5 @@ def add_donation(user_id: int, username: str, amount: float = None):
     })
     save_stats(stats)
     return stats
-pip install aiogram
 aiogram>=3.4.0
+pip install aiogram
